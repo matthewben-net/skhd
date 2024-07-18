@@ -1,3 +1,12 @@
+Forked because I updated the hyper and meh modifier keys to use specific left/right keys:
+
+* Hyper: Now uses the right ⌃ key (rctrl), while using the left keys for Shift (lshift), ⌥ (lalt), and ⌘ (lcmd).
+* Meh: Also uses the right ⌃ key (rctrl), with Shift and ⌥ utilizing the left keys.
+
+This means you can now have keybinds like `hyper + rcmd + rshift +ralt - t : ...` if you want more granularity.
+
+---
+
 **skhd** is a simple hotkey daemon for macOS that focuses on responsiveness and performance.
 Hotkeys are defined in a text file through a simple DSL. **skhd** is able to hotload its config file, meaning that hotkeys can be edited and updated live while **skhd** is running.
 
