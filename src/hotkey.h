@@ -50,9 +50,9 @@ enum hotkey_flag
                                Hotkey_Flag_Alt |
                                Hotkey_Flag_Shift |
                                Hotkey_Flag_Control),
-    Hotkey_Flag_Meh         = (Hotkey_Flag_Control |
-                               Hotkey_Flag_Shift |
-                               Hotkey_Flag_Alt)
+    Hotkey_Flag_Meh         = (Hotkey_Flag_RControl |
+                               Hotkey_Flag_LShift |
+                               Hotkey_Flag_LAlt)
 };
 
 #include "hashtable.h"
