@@ -46,10 +46,10 @@ enum hotkey_flag
     Hotkey_Flag_Passthrough = (1 << 13),
     Hotkey_Flag_Activate    = (1 << 14),
     Hotkey_Flag_NX          = (1 << 15),
-    Hotkey_Flag_Hyper       = (Hotkey_Flag_Cmd |
-                               Hotkey_Flag_Alt |
-                               Hotkey_Flag_Shift |
-                               Hotkey_Flag_Control),
+    Hotkey_Flag_Hyper       = (Hotkey_Flag_LCmd |
+                               Hotkey_Flag_LAlt |
+                               Hotkey_Flag_LShift |
+                               Hotkey_Flag_RControl),
     Hotkey_Flag_Meh         = (Hotkey_Flag_RControl |
                                Hotkey_Flag_LShift |
                                Hotkey_Flag_LAlt)
